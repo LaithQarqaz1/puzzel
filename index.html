@@ -152,12 +152,9 @@
     <div id="settings-dialog" class="dialog">
         <span class="close" onclick="hideDialog('settings')">&times;</span>
         <h2>الإعدادات</h2>
-        <p>الموسيقى</p>
-        <p>حرام انا متبري من ذنب الي بشغلها</p>
-        <p>(بتشتغل بلقائمة الرئيسيه بس)</p>
+        <p>تنزيل العبه للتلفون</p>
         <div class="dialog-buttons">
-            <button class="yes" onclick="toggleMusic(true)">تشغيل</button>
-            <button class="no" onclick="toggleMusic(false)">إيقاف</button>
+            <button class="yes" onclick="downloadGame()">تنزيل</button>
         </div>
     </div>
 
@@ -199,12 +196,8 @@
             window.location.href = 'https://www.google.com';
         }
 
-        function toggleMusic(play) {
-            if (play) {
-                backgroundMusic.play();
-            } else {
-                backgroundMusic.pause();
-            }
+        function downloadGame() {
+            window.location.href = 'https://www.google.com';
         }
     </script>
 </body>
